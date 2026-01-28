@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <input type="number" id="numero_1">
+    <input type="number" id="numero_2">
+    <button id="btnOperaciones">Operaciones</button> -->
+
+    <form onsubmit="enviar_suma(event)">
+      <input type="number" name="numA" placeholder="Numero A" />
+      <input type="number" name="numB" placeholder="Numero B" />
+      <input type="submit" value="Sumar" />
+    </form>
+    <form onsubmit="enviar_resta(event)">
+      <input type="number" name="numC" placeholder="Numero C" />
+      <input type="number" name="numD" placeholder="Numero D" />
+      <input type="submit" value="Restar" />
+    </form>
+    <form onsubmit="enviar_multiplicar(event)">
+      <input type="number" name="numE" placeholder="Numero E" />
+      <input type="number" name="numF" placeholder="Numero F" />
+      <input type="submit" value="Multiplicar" />
+    </form>
+    <form onsubmit="enviar_dividir(event)">
+      <input type="number" name="numG" placeholder="Numero A" />
+      <input type="number" name="numH" placeholder="Numero B" />
+      <input type="submit" value="Dividir" />
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
